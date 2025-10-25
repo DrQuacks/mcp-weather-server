@@ -1,0 +1,26 @@
+# Dependency directories
+# Node.js dependencies installed by npm or Yarn
+node_modules/
+
+# Logs and cache
+# Logs from npm or other tools
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+# Used for sensitive information like API keys.
+# NEVER commit credentials or sensitive data.
+.env
+.env.*.local
+
+# Build output
+# The folder for production-ready code. Common examples: `dist`, `build`.
+/dist
+/build
+/out
+
+# Operating system files
+# macOS-specific temporary files
+.DS_Store
